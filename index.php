@@ -206,6 +206,9 @@ $(document).ready(function(){
           	alert("Illegal Value of weight");
           	return;
           }
+          if ($('#luggage').val()==0) {
+          	var luggage=0;
+          }
           if ($('#luggage').val()>0 &&  $('#luggage').val()<=10) {
           	var luggage=50;
           }
